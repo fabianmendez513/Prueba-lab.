@@ -1,0 +1,44 @@
+.banner{
+    background:var(--light);
+    padding:2rem 0
+}
+
+.banner__wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:1.5rem
+
+}
+
+.banner__text h1{
+    font-size:2.5rem;
+    color:var(--primary);
+    margin-bottom:.5rem
+}
+
+.banner__text p{
+    color:var(--gray);
+    margin-bottom:1rem
+}
+.btn{
+    display:inline-block;
+    background:var(--primary);
+    color:#fff;
+    padding:.75rem 1.5rem;
+    border-radius:8px;
+    text-decoration:none
+}
+
+.banner__img{
+    width:100%;
+    max-width:280px;
+    justify-self:end
+}
+
+.banner__wrapper{
+    grid-template-columns:1fr
+}
+.banner__img{
+    justify-self:center
+}

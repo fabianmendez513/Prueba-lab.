@@ -1,0 +1,26 @@
+.cat-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+    gap:1rem;
+    text-align:center
+}
+
+.cat-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:.5rem
+}
+
+.cat-item img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:var(--light);
+    padding:.75rem
+}
+
+.cat-item span{
+    font-size:.85rem;
+    color:var(--dark)
+}

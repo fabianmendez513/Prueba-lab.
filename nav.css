@@ -1,0 +1,18 @@
+.main-nav{
+    display:flex;
+    overflow-x:auto;
+    list-style:none;
+    gap:1.5rem;
+    padding:.5rem 0;
+    margin-bottom:.5rem
+}
+
+.main-nav a{
+    text-decoration:none;
+    color:var(--gray);
+    font-weight:500;
+    white-space:nowrap
+}
+.main-nav a:hover{
+    color:var(--primary)
+}

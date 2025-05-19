@@ -1,0 +1,5 @@
+ .hero { position: relative; margin: 2rem 0; overflow: hidden; border-radius: var(--radius); background: #e9f2ff; display: flex; align-items: center; }
+    .hero-content { padding: 2rem; max-width: 60%; }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.1rem; margin-bottom: 1.5rem; }
+    .hero img { width: 300px; object-fit: contain; margin-left: auto; }
